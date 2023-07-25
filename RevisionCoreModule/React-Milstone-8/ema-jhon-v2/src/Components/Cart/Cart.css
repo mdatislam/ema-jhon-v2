@@ -1,0 +1,47 @@
+.cart-container{
+    background-color: rgba(255, 153, 0, 0.30);
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.cart-info{
+    padding: 20px;
+}
+
+
+.delete-btn{
+   color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border: none;
+    border-radius: 4px;
+background: #FF3030;
+width: 232px;
+height: 48px;
+margin: 16px;
+   
+}
+
+.delete-btn:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+.reviewBtn{
+    color: whitesmoke;
+    background: rgb(255, 0, 221);
+    border: none;
+    border-radius: 4px;
+    width: 232px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    text-align: justify;
+
+
+
+
+}
+
