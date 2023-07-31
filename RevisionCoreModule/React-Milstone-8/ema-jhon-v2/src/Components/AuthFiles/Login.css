@@ -1,0 +1,48 @@
+.form-container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    background: #FFF;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-field input {
+    width: 415px;
+    height: 55px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 415px;
+    height: 55px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    background-color: rgb(64, 97, 168);
+    cursor: pointer;
+
+}
+
+.google-btn{
+    margin-top: 20px;
+    width: 415px;
+    height: 55px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    background-color: rgb(64, 168, 69);
+    cursor: pointer;
+}
