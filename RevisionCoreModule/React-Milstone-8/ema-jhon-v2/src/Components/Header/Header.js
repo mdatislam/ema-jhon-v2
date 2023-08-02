@@ -17,7 +17,7 @@ const Header = () => {
             <nav className='Navbar'>
                 <img src={logo} alt="" />
                 <div>
-                    
+                
                     <Link to='/Shop'>Shop</Link>
                     <Link to='/Order'>Order</Link>
                     <Link to='/Inventory'>Inventory</Link>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Shipment = () => {
     return (
-        <div>
+        <div id='Ship'>
             
             <form className='form-container'>
             <h2 style={{textAlign:'center',font:'larger'}}> Plese provid your shipping info:</h2>

@@ -6,6 +6,7 @@ import { getCurt } from '../Utility/LocalStorageDb/LocalDb';
 import useProducts from '../../Hook/useProducts';
 import useCart from '../../Hook/useCart';
 import { Link } from 'react-router-dom';
+import Shipment from '../AuthFiles/Shipment';
 
 
 const Shop = () => {
@@ -102,6 +103,10 @@ const Shop = () => {
                 </Cart>
 
             </div>
+           <div id='ship'>
+            <h2 style={{textAlign:"center", fontSize:"larger"}}> Shipment</h2>
+           <Shipment/>
+           </div>
 
         </div>
     );

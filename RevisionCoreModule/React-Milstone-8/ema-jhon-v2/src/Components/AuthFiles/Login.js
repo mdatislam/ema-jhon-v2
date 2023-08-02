@@ -74,6 +74,7 @@ const Login = () => {
                     <div>
                     <button className='google-btn' onClick={() => signInWithGoogle().then(()=>{navigate(from,{replace:true})})} > Google</button>
                     </div>
+                  
                 </form>
 
 
